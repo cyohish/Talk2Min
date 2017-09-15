@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TALK2MIN</string>
+
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="kakaotalk">카카오톡</string>
+
+    <!-- Splash Activity -->
+    <string name="title_dialog_garmin_connect_not_installed">Garmin Connect 미설치</string>
+    <string name="message_dialog_garmin_connect_not_installed">Garmin Connect 앱이 설치되지 않았습니다. Garmin Connect 앱을 먼저 설치하시가 바랍니다.</string>
+
+
+    <!-- About Activity -->
+    <string name="title_activity_about">TALK2MIN의 권한 설청</string>
+    <string name="message_permission">카카오톡 메시지를 수신하기 위해 알림 액세스를 허용해야 합니다. 앱을 사용하고 싶지 않다면 알림 액세스를 사용 중지하면 됩니다.</string>
+    <string name="title_dialog_cannot_access_notification">알림 액세스 설정 실패</string>
+    <string name="message_dialog_cannot_access_notification">알림 액세스가 허용되지 않아 앱을 종료합니다.</string>
+
+
+    <!-- Bluetooth List Activity -->
+    <string name="title_activity_bluetooth_list">가민 장치를 선택</string>
+    <string name="message_dialog_select_garmin">선택된 블루투스 장치를 가민으로 사용하시겠습니까?</string>
+
+
+    <!-- Settins Activity -->
+    <string name="title_activity_settings">설정</string>
+    <string name="title_garmin_device">가민장치</string>
+    <string name="pref_garmin_device_name_default">선택되지 않음</string>
+</resources>

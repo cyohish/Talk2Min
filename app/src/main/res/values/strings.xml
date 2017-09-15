@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TALK2MIN</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="kakaotalk">Kakaotalk</string>
+
+    <!-- Splash Activity -->
+    <string name="title_dialog_garmin_connect_not_installed">Garmin Connect not installed</string>
+    <string name="message_dialog_garmin_connect_not_installed">Garmin Connect app is not installed. Please install Connect app first.</string>
+
+
+    <!-- About Activity -->
+    <string name="title_activity_about">About TALK2MIN</string>
+    <string name="message_permission">You need notification access to receive KakaoTalk message.</string>
+    <string name="title_dialog_cannot_access_notification">About TALK2MIN</string>
+    <string name="message_dialog_cannot_access_notification">Terminate the application for which notification access is not permitted.</string>
+
+
+
+    <!-- Bluetooth List Activity -->
+    <string name="title_activity_bluetooth_list">Choose garmin device</string>
+    <string name="message_dialog_select_garmin">Would you like to use the selected Bluetooth device as garmin?</string>
+
+
+    <!-- Settins Activity -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_garmin_device">가민장치</string>
+    <string name="pref_garmin_device_name_default">Not selected</string>
+</resources>

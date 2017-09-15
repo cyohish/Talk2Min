@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<SwitchPreference-->
+        <!--android:defaultValue="true"-->
+        <!--android:key="is_enabled"-->
+        <!--android:title="Enabled" />-->
+    <PreferenceCategory android:title="Garmin Device">
+
+        <Preference
+            android:defaultValue="Not selected"
+            android:key="garmin_device_name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Permission">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="is_access_notification_enabled"
+            android:title="Access Notifiaction" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
